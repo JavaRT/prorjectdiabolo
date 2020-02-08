@@ -6,7 +6,7 @@ import java.util.List;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("Dungeon master says: Hello World!");
+        System.out.println("Dungeon master says: Hello hero!");
         Player player = CreatePlayer.createPlayer();
         List<Monster> monsters = MonsterCreationUtil.createMonsters();
 
